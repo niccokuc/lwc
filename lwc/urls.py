@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from lwcApp import views
+from joins import views
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
